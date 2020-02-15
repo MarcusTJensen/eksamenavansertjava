@@ -5,6 +5,14 @@ public class Task {
     private String name;
     private String status;
     private String persons;
+    private int id;
+
+    public Task(int id, String name, String status, String persons) {
+        this.id = id;
+        this.name = name;
+        this.status = status;
+        this.persons = persons;
+    }
 
     public Task(String name, String status, String persons) {
         this.name = name;
@@ -34,5 +42,12 @@ public class Task {
 
     public void setPersons(String persons) {
         this.persons = persons;
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
     }
 }

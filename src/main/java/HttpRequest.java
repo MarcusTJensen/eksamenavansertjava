@@ -28,7 +28,7 @@ public class HttpRequest {
 
         pw.println(requestType + " " + path + " HTTP/1/1" + "\r\n");
         pw.println("Host: " + url + "\r\n");
-        pw.println("Connection: close\r\n");
+        pw.println("Connection: Keep-Alive\r\n");
         pw.println("Content-type: application/x-www-form-urlencoded\r\n");
 
         if(requestType.equals("POST")) {
@@ -37,22 +37,20 @@ public class HttpRequest {
         }
         pw.println("\r\n");
         pw.flush();
+        socket.setKeepAlive(true);
     }
 
-    public static void main(String[] args) {
-        HttpRequest request = new HttpRequest("/all", "localhost", "GET", "");
-        try(Socket socket = request.startClient(8380)) {
-            request.sendRequest(socket);
-            BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            System.out.println(input.readLine());
-            StringBuilder sb = new StringBuilder();
-            while (input.ready()) {
-                sb.append((char) input.read());
-            }
-            System.out.println(sb);
+    public String getResponse(Socket socket) {
+        StringBuilder response = new StringBuilder();
+        try (BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
+                System.out.println(input.readLine());
+                while (input.ready()) {
+                    response.append((char) input.read());
+                }
+            socket.setKeepAlive(true);
         }catch (IOException e) {
             System.out.println(e.getMessage());
         }
+        return response.toString();
     }
-
 }

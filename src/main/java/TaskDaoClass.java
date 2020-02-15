@@ -9,17 +9,19 @@ public class TaskDaoClass implements TaskDao {
     PostgrresqlDataSource postgresDs = new PostgrresqlDataSource();
 
     public Connection dbConnect() throws SQLException {
-        String url = "jdbc:postgresql://localhost/java_exam_db";
+        /*String url = "jdbc:postgresql://localhost/java_exam_db";
         String user = "java_exam_user";
-        String password = "password";
-        Connection conn = DriverManager.getConnection(url, user, password);
+        String password = "password";*/
+        DataSource ds = postgresDs.getDataSource();
+        Connection conn = ds.getConnection();
         createTable();
         return  conn;
     }
 
     public void createTable() {
         String sql = "CREATE TABLE IF NOT EXISTS tasks (\n"
-                    + "     name text PRIMARY KEY, \n"
+                    + "     id SERIAL PRIMARY KEY, \n"
+                    + "     name text, \n"
                     + "     status text, \n"
                     + "     persons text\n"
                     + ");";
@@ -27,7 +29,7 @@ public class TaskDaoClass implements TaskDao {
             Statement stmnt = conn.createStatement();
             stmnt.execute(sql);
         }catch (SQLException e) {
-            System.out.println("added table");
+            System.out.println(e.getMessage());
         }
     }
 
@@ -39,10 +41,11 @@ public class TaskDaoClass implements TaskDao {
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()) {
+                int id = rs.getInt("id");
                 String name = rs.getString("name");
                 String status = rs.getString("status");
                 String persons = rs.getString("persons");
-                Task task = new Task(name, status, persons);
+                Task task = new Task(id, name, status, persons);
                 tasks.add(task);
             }
         }catch (SQLException e) {
@@ -52,18 +55,19 @@ public class TaskDaoClass implements TaskDao {
     }
 
     @Override
-    public Task getTask(String name) {
+    public Task getTask(int id) {
         String sql = "SELECT * FROM tasks \n"
-                    + "     WHERE name='" + name +"'";
+                    + "     WHERE id='" + id +"'";
         Task task = null;
         try(Connection conn = dbConnect()) {
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()) {
+                int taskId = rs.getInt("id");
                 String tName = rs.getString("name");
                 String status = rs.getString("status");
                 String persons = rs.getString("persons");
-                task = new Task(tName, status, persons);
+                task = new Task(taskId, tName, status, persons);
             }
         }catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -73,8 +77,18 @@ public class TaskDaoClass implements TaskDao {
 
     @Override
     public void updateTask(Task task) {
-        Task taskToUpdate = getTask(task.getName());
-
+        String sql = "UPDATE tasks \n"
+                    + "     SET name = '" +  task.getName() + "'" + ", "
+                    + "         status = '" + task.getStatus() + "'" + ", "
+                    + "         persons = '" + task.getpersons() + "'" + " \n"
+                    + "     WHERE id = '" + task.getId() + "'";
+        try (Connection conn = dbConnect()) {
+            Statement stmt = conn.createStatement();
+            stmt.execute(sql);
+            System.out.println("Successful update");
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     @Override

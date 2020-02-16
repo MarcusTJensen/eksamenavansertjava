@@ -6,20 +6,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskDaoClass implements TaskDao {
-    PostgrresqlDataSource postgresDs = new PostgrresqlDataSource();
+    DataSource dataSource;
+
+    public TaskDaoClass(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
 
     public Connection dbConnect() throws SQLException {
         /*String url = "jdbc:postgresql://localhost/java_exam_db";
         String user = "java_exam_user";
         String password = "password";*/
-        DataSource ds = postgresDs.getDataSource();
-        Connection conn = ds.getConnection();
-        createTable();
+        Connection conn = dataSource.getConnection();
         return  conn;
     }
 
     public void createTable() {
-        String sql = "CREATE TABLE IF NOT EXISTS tasks (\n"
+        String sql = "CREATE TABLE IF NOT EXISTS TASKS (\n"
                     + "     id SERIAL PRIMARY KEY, \n"
                     + "     name text, \n"
                     + "     status text, \n"
@@ -101,7 +103,6 @@ public class TaskDaoClass implements TaskDao {
             stmt.setString(2, task.getStatus());
             stmt.setString(3, task.getpersons());
             stmt.execute();
-            System.out.println("Successfull Insertion!");
         }catch (SQLException e) {
             System.out.println(e.getMessage());
         }

@@ -47,7 +47,6 @@ public class HttpRequest {
                 while (input.ready()) {
                     response.append((char) input.read());
                 }
-            socket.setKeepAlive(true);
         }catch (IOException e) {
             System.out.println(e.getMessage());
         }

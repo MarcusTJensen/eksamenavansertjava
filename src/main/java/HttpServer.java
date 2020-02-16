@@ -1,14 +1,20 @@
+import javax.sql.DataSource;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.sql.Connection;
 
 public class HttpServer {
+    DataSource ds;
     int port;
-    public HttpServer(int port) {
+    public HttpServer(int port, DataSource ds) {
         this.port = port;
+        this.ds = ds;
     }
     public void startServer() {
         new Thread(() -> {
@@ -35,30 +41,30 @@ public class HttpServer {
         String response = "";
         if (requestType.equals("GET")) {
             StringBuilder sb = new StringBuilder();
-            TaskDao task = new TaskDaoClass();
+            TaskDao task = new TaskDaoClass(ds);
             if (path.equals("/tasks")) {
                 ArrayList tasks;
                 tasks = task.getAllTasks();
                 for (int i = 0; i < tasks.size(); i++) {
                     Task currentTask = (Task) tasks.get(i);
                     sb.append(currentTask.getId() + " ");
-                    sb.append(currentTask.getName() + " ");
-                    sb.append(currentTask.getStatus() + " ");
-                    sb.append(currentTask.getpersons() + "| ");
+                    sb.append("Name: " + currentTask.getName() + ", ");
+                    sb.append("Status: " + currentTask.getStatus() + ", ");
+                    sb.append("Persons: " + currentTask.getpersons() + "\r\n");
                 }
             } else if (path.contains("/tasks/")) {
                 String[] pathParts = path.split("/");
                 int id = Integer.parseInt(pathParts[2]);
                 Task currentTask = task.getTask(id);
-                sb.append(currentTask.getId());
-                sb.append(currentTask.getName());
-                sb.append(currentTask.getStatus());
-                sb.append(currentTask.getpersons());
+                sb.append(currentTask.getId() + " ");
+                sb.append("Name: " + currentTask.getName() + ", ");
+                sb.append("Status: " + currentTask.getStatus() + ", ");
+                sb.append("Persons: " + currentTask.getpersons() + "\r\n");
             }
             response = "HTTP/1/1 200 OK\r\n\r\n" + sb.toString();
         } else if (requestType.equals("POST")) {
             StringBuilder payload = new StringBuilder();
-            TaskDao taskDao = new TaskDaoClass();
+            TaskDao taskDao = new TaskDaoClass(ds);
             while (br.ready()) {
                 payload.append((char) br.read());
             }
@@ -88,7 +94,8 @@ public class HttpServer {
     }
 
     public static void main(String[] args) {
-            HttpServer server = new HttpServer(8380);
+            DataSource ds = new PostgrresqlDataSource().getDataSource();
+            HttpServer server = new HttpServer(8380, ds);
             server.startServer();
             System.out.println("Server listening");
     }

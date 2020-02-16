@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7d04db-3f7f-444c-936b-72a662320403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ResponseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TaskDaoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskDaoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResponseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HttpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TaskDaoClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskDaoClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RequestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RequestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ResponseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ResponseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +15,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/eksamenavansertjava$ResponseTest.ic" NAME="ResponseTest Coverage Results" MODIFIED="1581882416548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/eksamenavansertjava$RequestTest.ic" NAME="RequestTest Coverage Results" MODIFIED="1581882459441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,23 +39,23 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="21658" />
+          <entry key="java" value="22350" />
           <entry key="properties" value="153" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21658" />
+          <entry key="JAVA" value="22350" />
           <entry key="Properties" value="153" />
           <entry key="XML" value="10" />
         </counts>
@@ -68,14 +63,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="20" />
+          <entry key="java" value="24" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="24" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -86,79 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="612">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TaskDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="76" column="8" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="77" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TaskDaoClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="71" column="49" lean-forward="true" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HttpRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RequestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="265">
+              <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,17 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ResponseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HttpServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
+            <state relative-caret-position="231">
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,14 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PostgrresqlDataSource.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HttpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -228,8 +158,9 @@
         <option value="$PROJECT_DIR$/src/test/java/DatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/HttpRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RequestTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HttpServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HttpServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ResponseTest.java" />
       </list>
     </option>
   </component>
@@ -262,6 +193,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,19 +234,21 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eksamenavansertjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581876055953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581882458283" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -338,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="JUnit.DatabaseTest">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="eksamenavansertjava" />
@@ -346,57 +282,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HttpServer" />
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eksamenavansertjava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestTest.getOneRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eksamenavansertjava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RequestTest" />
-      <option name="METHOD_NAME" value="getOneRequestTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestTest.postRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eksamenavansertjava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RequestTest" />
-      <option name="METHOD_NAME" value="postRequestTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ResponseTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestTest.postUpdateRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseTest.testGetResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eksamenavansertjava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RequestTest" />
-      <option name="METHOD_NAME" value="postUpdateRequestTest" />
+      <option name="MAIN_CLASS_NAME" value="ResponseTest" />
+      <option name="METHOD_NAME" value="testGetResponse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RequestTest.postRequestTest" />
-      <item itemvalue="JUnit.RequestTest.getOneRequestTest" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.HttpServer" />
-      <item itemvalue="JUnit.RequestTest.postUpdateRequestTest" />
+      <item itemvalue="JUnit.ResponseTest.testGetResponse" />
+      <item itemvalue="JUnit.ResponseTest" />
+      <item itemvalue="JUnit.RequestTest" />
+      <item itemvalue="JUnit.DatabaseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.RequestTest" />
+        <item itemvalue="JUnit.ResponseTest" />
+        <item itemvalue="JUnit.ResponseTest.testGetResponse" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.HttpServer" />
-        <item itemvalue="JUnit.RequestTest.postUpdateRequestTest" />
-        <item itemvalue="JUnit.RequestTest.getOneRequestTest" />
-        <item itemvalue="JUnit.RequestTest.postRequestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -414,31 +347,11 @@
       <workItem from="1581676528922" duration="20442000" />
       <workItem from="1581763834963" duration="19931000" />
       <workItem from="1581852548917" duration="19070000" />
+      <workItem from="1581880986060" duration="1462000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RequestTest_checkGetRequest - 2020.02.16 at 15h 52m 52s.xml">
-      <configuration name="RequestTest.checkGetRequest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RequestTest_postRequestTest - 2020.02.16 at 15h 54m 06s.xml">
-      <configuration name="RequestTest.postRequestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RequestTest_getOneRequestTest - 2020.02.16 at 16h 02m 29s.xml">
-      <configuration name="RequestTest.getOneRequestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RequestTest_getOneRequestTest - 2020.02.16 at 16h 14m 22s.xml">
-      <configuration name="RequestTest.getOneRequestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RequestTest_postUpdateRequestTest - 2020.02.16 at 16h 57m 59s.xml">
-      <configuration name="RequestTest.postUpdateRequestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RequestTest_postUpdateRequestTest - 2020.02.16 at 16h 58m 24s.xml">
-      <configuration name="RequestTest.postUpdateRequestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RequestTest_postUpdateRequestTest - 2020.02.16 at 17h 05m 14s.xml">
-      <configuration name="RequestTest.postUpdateRequestTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RequestTest_postUpdateRequestTest - 2020.02.16 at 17h 05m 48s.xml">
       <configuration name="RequestTest.postUpdateRequestTest" configurationId="JUnit" />
     </history-entry>
@@ -448,9 +361,30 @@
     <history-entry file="RequestTest_postUpdateRequestTest - 2020.02.16 at 17h 12m 40s.xml">
       <configuration name="RequestTest.postUpdateRequestTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ResponseTest_testGetResponse - 2020.02.16 at 20h 38m 27s.xml">
+      <configuration name="ResponseTest.testGetResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResponseTest_testGetResponse - 2020.02.16 at 20h 43m 43s.xml">
+      <configuration name="ResponseTest.testGetResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResponseTest_testGetResponse - 2020.02.16 at 20h 44m 55s.xml">
+      <configuration name="ResponseTest.testGetResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResponseTest_testGetResponse - 2020.02.16 at 20h 45m 58s.xml">
+      <configuration name="ResponseTest.testGetResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResponseTest_testGetResponse - 2020.02.16 at 20h 46m 13s.xml">
+      <configuration name="ResponseTest.testGetResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResponseTest_testGetResponse - 2020.02.16 at 20h 46m 31s.xml">
+      <configuration name="ResponseTest.testGetResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResponseTest - 2020.02.16 at 20h 47m 08s.xml">
+      <configuration name="ResponseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61120000" />
+    <option name="totallyTimeSpent" value="62582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -462,11 +396,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.18763326" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18763326" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.48264644" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.48264644" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -476,6 +410,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.48264644" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -514,16 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Task.java" />
     <entry file="file://$PROJECT_DIR$/postgresql.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -545,49 +471,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskDaoClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/PostgrresqlDataSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="612">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskDaoClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PostgrresqlDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="76" column="8" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="77" selection-end-column="25" />
+        <state relative-caret-position="265">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -596,48 +495,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="71" column="49" lean-forward="true" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="231">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RequestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="60" />
         </state>
       </provider>
     </entry>

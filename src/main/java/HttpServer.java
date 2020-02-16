@@ -27,7 +27,6 @@ public class HttpServer {
                     String headers = br.readLine();
                     String path = headers.split(" ")[1];
                     String requestType = headers.split(" ")[0];
-                    //System.out.println(path);
                     String response = readRequest(requestType, path, br);
                     socket.getOutputStream().write(response.getBytes());
                 }

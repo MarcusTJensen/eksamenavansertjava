@@ -9,8 +9,13 @@
         <module name="Client" />
         <module name="DB" />
         <module name="HTTP" />
-        <module name="Server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Client" target="8" />
+      <module name="DB" target="8" />
+      <module name="eksamen-avansert-java" target="8" />
+      <module name="HTTP" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

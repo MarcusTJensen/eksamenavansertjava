@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DB.iml" filepath="$PROJECT_DIR$/DB/DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTTP/HTTP.iml" filepath="$PROJECT_DIR$/HTTP/HTTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eksamen-avansert-java.iml" filepath="$PROJECT_DIR$/eksamen-avansert-java.iml" />
+    </modules>
+  </component>
+</project>

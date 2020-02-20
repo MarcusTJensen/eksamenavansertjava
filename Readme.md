@@ -30,15 +30,15 @@ Ettersom jeg har utført eksamen alene(Eksamenskontoret spesifiserte også at de
 jeg derfor ikke laget noen parprogrammeringsvideo.
 I og med at jeg ikke har kunnet benyttet github classroom til denne oppgaven, kan man ikke se bruken av Travis CI.
 Jeg har derfor valgt å legge med bilder for å dokumentere at jeg faktisk har brukt det:
-![Travis 1](/travis/travis1.JPG)
-![Travis 2](/travis/travis2.JPG)
-![Travis 3](/travis/travis3.JPG)
-![Travis 4](/travis/travis4.JPG)
-![Travis 5](/travis/travis5.JPG)
-![Travis 6](/travis/travis6.JPG)
-______________________________________________________
+![Travis 1](/eksamenavansertjava/travis/travis1.JPG)
+![Travis 2](/eksamenavansertjava/travis/travis2.JPG)
+![Travis 3](/eksamenavansertjava/travis/travis3.JPG)
+![Travis 4](/eksamenavansertjava/travis/travis4.JPG)
+![Travis 5](/eksamenavansertjava/travis/travis5.JPG)
+![Travis 6](/eksamenavansertjava/travis/travis6.JPG)
+![Travis 7](/eksamenavansertjava/travis/travis7.JPG)______________________________________________________
 
-![Diagram image](/prosjektdiagram.png)
+![Diagram image](/eksamenavansertjava/prosjektdiagram.png)
 Som tidligere nevnt, har programmet en hoved-modul (eksamenavansertjava) og 3 under-moduler(HTTP, DB og Client).
 HTTP-modulen inneholder alt av kommunikasjon mellom Client og Server. Den består av 2 klasser HttpServer og HttpRequest.
 HttpRequest klassen oppretter en Http request basert på parametere. Den vil så skrive denne requesten til OutputStream.

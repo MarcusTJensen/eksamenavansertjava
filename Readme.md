@@ -28,6 +28,14 @@ som betyr at det ikke har vært en mulighet. Oppgaven er dog utført i et privat
 Oppgaveteksten sier også at vi skal legge ved en link til en screencast video hvor vi parprogrammerer på en del av oppgaven.
 Ettersom jeg har utført eksamen alene(Eksamenskontoret spesifiserte også at det var en individuell hjemmeeksamen) har
 jeg derfor ikke laget noen parprogrammeringsvideo.
+I og med at jeg ikke har kunnet benyttet github classroom til denne oppgaven, kan man ikke se bruken av Travis CI.
+Jeg har derfor valgt å legge med bilder for å dokumentere at jeg faktisk har brukt det:
+![Travis 1](/travis/travis1.JPG)
+![Travis 2](/travis/travis2.JPG)
+![Travis 3](/travis/travis3.JPG)
+![Travis 4](/travis/travis4.JPG)
+![Travis 5](/travis/travis5.JPG)
+![Travis 6](/travis/travis6.JPG)
 ______________________________________________________
 
 ![Diagram image](/prosjektdiagram.png)

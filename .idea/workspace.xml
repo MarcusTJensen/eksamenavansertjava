@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9d6bcf-d294-4b11-9200-f6660987129b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prosjektdiagram.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Client/target/" />
     <ignored path="$PROJECT_DIR$/DB/target/" />
@@ -31,12 +30,14 @@
           <entry key="iml" value="1" />
           <entry key="java" value="10" />
           <entry key="md" value="1" />
+          <entry key="png" value="2" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="2" />
           <entry key="JAVA" value="10" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
@@ -73,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <first_editor relative-caret-position="435">
+                <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,15 +87,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB/src/test/java/com/hk/exam/database/DatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -295,6 +287,10 @@
               <item name="eksamenavansertjava" type="462c0819:PsiDirectoryNode" />
               <item name="HTTP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eksamen-avansert-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582184000314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582215634512" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -396,7 +392,7 @@
       <workItem from="1582153137148" duration="1055000" />
       <workItem from="1582156549592" duration="751000" />
       <workItem from="1582181091366" duration="3156000" />
-      <workItem from="1582211340387" duration="3008000" />
+      <workItem from="1582211340387" duration="4202000" />
     </task>
     <servers />
   </component>
@@ -409,11 +405,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7970000" />
+    <option name="totallyTimeSpent" value="9164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,7 +427,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4067245" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -495,9 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB/DB.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB/src/main/java/com/hk/exam/database/PostgrresqlDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -536,11 +528,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prosjektdiagram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/DB.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <first_editor relative-caret-position="435">
+            <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           </first_editor>
           <second_editor />
         </state>

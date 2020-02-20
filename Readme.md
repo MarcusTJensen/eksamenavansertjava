@@ -30,6 +30,7 @@ Ettersom jeg har utført eksamen alene(Eksamenskontoret spesifiserte også at de
 jeg derfor ikke laget noen parprogrammeringsvideo.
 ______________________________________________________
 
+![Diagram image](/eksamenavansertjava/prosjektdiagram.png)
 Som tidligere nevnt, har programmet en hoved-modul (eksamenavansertjava) og 3 under-moduler(HTTP, DB og Client).
 HTTP-modulen inneholder alt av kommunikasjon mellom Client og Server. Den består av 2 klasser HttpServer og HttpRequest.
 HttpRequest klassen oppretter en Http request basert på parametere. Den vil så skrive denne requesten til OutputStream.

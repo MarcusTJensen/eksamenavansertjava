@@ -18,9 +18,6 @@ public class PostgrresqlDataSource {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        /*ds.setUrl("jdbc:postgresql://localhost:5432/java_exam_db");
-        ds.setUser("postgres");
-        ds.setPassword("201197mtj");*/
         return ds;
     }
 }

@@ -42,6 +42,24 @@ public class ResponseTest {
 
         assertEquals(br.readLine(), "HTTP/1/1 200 OK");
     }
+    @Test
+    public void testPostResponse() throws IOException {
+        HttpServer server = new HttpServer(8380, testDataSource());
+        server.startServer();
+        Socket socket = new Socket("localhost", 8380);
+        PrintWriter pw = new PrintWriter(socket.getOutputStream());
+        String body = "name=Bug fixing&status=Doing&persons=Atle, Terje, Harald, Steinar";
+        pw.println("POST /tasks HTTP/1/1" + "\r\n");
+        pw.println("Host: localhost\r\n");
+        pw.println("Connection: Keep-Alive\r\n");
+        pw.println("Content-type: application/x-www-form-urlencoded\r\n");
+        pw.println("Content-length: " + body.length());
+        pw.println("Body: " + body);
+        pw.flush();
+        BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+
+        assertEquals(br.readLine(), "HTTP/1/1 200 OK");
+    }
 
     private DataSource testDataSource() {
         JdbcDataSource ds = new JdbcDataSource();

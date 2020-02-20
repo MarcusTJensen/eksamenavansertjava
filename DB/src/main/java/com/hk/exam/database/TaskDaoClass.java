@@ -12,9 +12,6 @@ public class TaskDaoClass implements TaskDao {
     }
 
     public Connection dbConnect() throws SQLException {
-        /*String url = "jdbc:postgresql://localhost/java_exam_db";
-        String user = "java_exam_user";
-        String password = "password";*/
         Connection conn = dataSource.getConnection();
         return  conn;
     }
@@ -27,8 +24,8 @@ public class TaskDaoClass implements TaskDao {
                     + "     persons text\n"
                     + ");";
         try(Connection conn = dbConnect()) {
-            Statement stmnt = conn.createStatement();
-            stmnt.execute(sql);
+            PreparedStatement stmnt = conn.prepareStatement(sql);
+            stmnt.execute();
         }catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -39,8 +36,8 @@ public class TaskDaoClass implements TaskDao {
         String sql = "SELECT * FROM tasks";
         ArrayList<Task> tasks = new ArrayList<>();
         try(Connection conn = dbConnect()) {
-            Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery(sql);
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 int id = rs.getInt("id");
                 String name = rs.getString("name");
@@ -61,8 +58,8 @@ public class TaskDaoClass implements TaskDao {
                     + "     WHERE id='" + id +"'";
         Task task = null;
         try(Connection conn = dbConnect()) {
-            Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery(sql);
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 int taskId = rs.getInt("id");
                 String tName = rs.getString("name");
@@ -84,8 +81,8 @@ public class TaskDaoClass implements TaskDao {
                     + "         persons = '" + task.getpersons() + "'" + " \n"
                     + "     WHERE id = '" + task.getId() + "'";
         try (Connection conn = dbConnect()) {
-            Statement stmt = conn.createStatement();
-            stmt.execute(sql);
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt.execute();
             System.out.println("Successful update");
         } catch (SQLException e) {
             System.out.println(e.getMessage());

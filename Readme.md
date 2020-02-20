@@ -36,7 +36,8 @@ Jeg har derfor valgt å legge med bilder for å dokumentere at jeg faktisk har b
 ![Travis 4](/eksamenavansertjava/travis/travis4.JPG)
 ![Travis 5](/eksamenavansertjava/travis/travis5.JPG)
 ![Travis 6](/eksamenavansertjava/travis/travis6.JPG)
-![Travis 7](/eksamenavansertjava/travis/travis7.JPG)______________________________________________________
+![Travis 7](/eksamenavansertjava/travis/travis7.JPG)
+______________________________________________________
 
 ![Diagram image](/eksamenavansertjava/prosjektdiagram.png)
 Som tidligere nevnt, har programmet en hoved-modul (eksamenavansertjava) og 3 under-moduler(HTTP, DB og Client).

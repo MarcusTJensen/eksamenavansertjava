@@ -30,7 +30,7 @@ Ettersom jeg har utført eksamen alene(Eksamenskontoret spesifiserte også at de
 jeg derfor ikke laget noen parprogrammeringsvideo.
 I og med at jeg ikke har kunnet benyttet github classroom til denne oppgaven, kan man ikke se bruken av Travis CI.
 Jeg har derfor valgt å legge med bilder for å dokumentere at jeg faktisk har brukt det:
-![Travis 1](/travis/travis1.JPG)
+![Travis 1](/travis/travis1.jpg)
 ![Travis 2](/travis/travis2.JPG)
 ![Travis 3](/travis/travis3.JPG)
 ![Travis 4](/travis/travis4.JPG)

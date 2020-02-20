@@ -2,7 +2,7 @@
 Kandidatnummer: 5003
 ___________________________________________
 
-###KjøreInstruksjoner
+***KjøreInstruksjoner***
 - Oppdater postgresql.properties, den ligger i eksamenavansertjava/DB/src/main/resources/postgresql.properties
 - Naviger deg til prosjekt mappen og kjør kommandoen: "mvn clean install"
 - Deretter kjører du kommandoen: "mvn package"
